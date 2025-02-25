@@ -10,3 +10,7 @@
 ## Completed
 
 ## Rejected
+
+## Articles
+- Angular - https://angular.dev/tools/cli
+- 
