@@ -9,9 +9,7 @@ COPY . .
 RUN npm install
 RUN npm run build --prod
 
-
 ### STAGE 2:RUN ###
-
 FROM nginx:latest AS ngi
 
 COPY --from=build /dist/src/app/dist/echo-chamber-front /usr/share/nginx/html
